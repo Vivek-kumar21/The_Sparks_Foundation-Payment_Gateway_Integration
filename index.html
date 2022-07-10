@@ -1,0 +1,116 @@
+<!-- Author: Vivek Kumar Mandal -->
+<!-- Purpose: Task for The Sparks Foundations Internship (website where user can make payment through razorpay payment gateway) -->
+<!-- Date: 10 July,2022 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>ChildCare</title>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <div class="menu">
+    <ul>
+      <li>
+        <span onmouseenter="hoverEnter(0)">
+          <i class="fa fa-home"></i>
+        </span>
+      </li>
+      <li>
+        <span onmouseenter="hoverEnter(1)">
+          <i class="fa fa-edit"></i>
+        </span>
+      </li>
+      <li>
+        <span onmouseenter="hoverEnter(2)">
+          <i class="fa fa-laptop"></i>
+        </span>
+      </li>
+      <li>
+        <span onmouseenter="hoverEnter(3)">
+          <i class="fa fa-tag"></i>
+        </span>
+      </li>
+      <span class="goo-index" id="goo-index"></span>
+    </ul>
+  </div>
+
+  <div class="content-wrapper">
+    <div id="screen_0" class="screen visible">
+      <h2><b>ChildCare</b></h2>
+      <center>
+        <p>
+        <h4>Every child, no matter who they are or where they come from, deserves access to education.</h4><br><br>
+        ChildCare is a social service non-profit organiazation providing right education to the poor and needy
+        children.<br>
+        We have devised several solutions that help us continue sharing the gift of education with underprivileged
+        children.<br>
+        Therefore, to ensure education for all, our campaign ‘ChildCare’ aims not only at bringing drop out children
+        back<br>
+        to school but also in enabling uninterrupted learning for children through access to resources needed for their
+        education. </p>
+      </center>
+      <center>
+        <form>
+          <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_JrCBQrD0rafQrD"
+            async> </script>
+        </form>
+      </center>
+      <div class="image"
+        style="background-image:url(https://i.pinimg.com/originals/f8/4f/f9/f84ff9272858b67b1568b73b8f3d6dbc.gif)">
+      </div>
+    </div>
+
+    <div id="screen_1" class="screen">
+      <h2>Our Mission</h2>
+      <p>On our platform, you can donate to a nonprofit with confidence. Our robust due diligence process covers legal,
+        compliance, financial and impact checks for each donation made to any non-profit, including in-person visits to
+        beneficiaries and actual feedback reports.
+      <ol>
+        <li>Choice: 200+ organizations to donate to</li>
+        <li>Simple: Give at a click of a button</li>
+        <li>Convenience: Contribute monthly with ease</li>
+        <li>Credible - Donate with confidence to the verified partner NGOs</li>
+        <li>Scale - Make a big impact with your small amounts. Donate as little as Rs.110/ month</li>
+      </ol>
+      </p>
+      <div class="image"
+        style="background-image:url(https://i.pinimg.com/originals/15/df/e9/15dfe90a5a28ded638a3e8f3015c28ad.gif)">
+      </div>
+    </div>
+
+
+    <div id="screen_2" class="screen">
+      <h2>Our Photo Gallery</h2><br>
+      <center>
+        <div class="image"><img src="1.jpg" style="width: 70%; height: 90%;"></div>
+        <div class="image"><img src="2.jpg" style="width: 70%; height: 90%;"></div>
+      </center>
+    </div>
+
+
+    <div id="screen_3" class="screen">
+      <h2>Contact Us</h2>
+      <p>Address: Dhanbad, Jharkhand, 828114
+        <br>
+        Phone No: 9874627384
+        <br>
+        Email ID: vivekkumarmndl18@gmail.com
+        <br>
+      </p>
+      <div class="image"
+        style="background-image:url(https://i.pinimg.com/originals/98/64/9a/98649add72e05e3cc1b8ae0e6f553c8e.gif)">
+      </div>
+    </div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
