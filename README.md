@@ -18,8 +18,8 @@
 
 
 ## 🔗 Links
-[![Youtube](https://img.shields.io/badge/YOUTUBE-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.youtube.com/watch?v=oVRndDlBLy0)
+[![Youtube](https://img.shields.io/badge/YOUTUBE-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://youtu.be/dtLp7BCcWho)
 
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://github.com/Vivek-kumar21/Payment-Gateway-Integration.git)
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://github.com/Vivek-kumar21/The_Sparks_Foundation-Payment_Gateway_Integration.git)
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vivek-kumar-mandal-638864221/)
